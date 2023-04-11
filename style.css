@@ -13,6 +13,7 @@
 body {
   background-color: #1A1A1A;
   font-family: 'Nunito', sans-serif;
+  padding: 10px;
 }
 
 img#logo {
@@ -50,7 +51,7 @@ main {
 }
 
 .escritos {
-  height: 50vh;
+  height: 40vh;
   width: 60%;
   background-color: rgb(59, 59, 59);
   color: white;
