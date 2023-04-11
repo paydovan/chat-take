@@ -11,7 +11,7 @@
 }
 
 body {
-  background-color: rgb(179, 179, 179);
+  background-color: #1A1A1A;
   font-family: 'Nunito', sans-serif;
 }
 
@@ -68,6 +68,7 @@ main {
   color: #555;
   background-color: #fff;
   box-shadow: none;
+  margin-right: 5px;
 }
 
 .msg:focus {
