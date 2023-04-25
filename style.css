@@ -10,10 +10,17 @@
 --c5: #E6C300;
 }
 
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
 body {
   background-color: #1A1A1A;
   font-family: 'Nunito', sans-serif;
   padding: 10px;
+  height: 100vh;
 }
 
 img#logo {
@@ -21,6 +28,7 @@ img#logo {
 }
 
 header {
+  position: relative;
   height: auto;
   background-color:#E6C300;
   box-shadow: 1px 1px 3px #806C00;
@@ -28,7 +36,8 @@ header {
   padding: 10px;
   border-radius: 10px;
   margin-bottom: 15px;
-    
+  font-size: 2.5vh;
+  align-items: center;
 }
 
 h1#title {
@@ -39,15 +48,22 @@ h1#title {
 }
 
 main {
-  width: 38%;
+  width: 40%;
+  min-width: 25vh;
   background-color: #E6C300;
   box-shadow: 1px 1px 3px #403600;
   border-radius: 7px 3px;
   display: flex;
+  align-items: center;
+  height: 19%;
+  font-size: 2.5vh;
 }
 
 .comandin {
   padding: 0px 0px 0px 10px;
+  height: 100%;
+  width: 100%;
+  overflow: auto;
 }
 
 .escritos {
@@ -59,6 +75,7 @@ main {
   padding: 10px;
   margin-right: auto;
   border-radius: 7px 3px;
+  overflow: auto;
 }
 
 .msg {
@@ -70,6 +87,7 @@ main {
   background-color: #fff;
   box-shadow: none;
   margin-right: 5px;
+  width: 98%;
 }
 
 .msg:focus {
@@ -96,7 +114,7 @@ main {
   transform: scale(0.85);
 }
 
-span#botoes {
+div#botoes {
   display: flex;
   justify-content: right;
   margin: 20px 1px 5px 1px;
