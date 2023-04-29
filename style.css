@@ -114,14 +114,17 @@ main {
   transform: scale(0.85);
 }
 
-div#botoes {
+.botoes {
   display: flex;
   justify-content: right;
   margin: 20px 1px 5px 1px;
+  flex-wrap: wrap;
 }
 
-span#sendbutton {
-  margin-top: -8px;
+.botoes > span {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 1px;
 }
-
 
